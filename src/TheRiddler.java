@@ -15,13 +15,20 @@ int score = 0;
 String answer= JOptionPane.showInputDialog("what type of tree have fingers");
 	// 4. If they got the answer right, pop up "correct!" and increase the score by one
 
-if (answer.equals("plam trees") {JOptionPane.showMessageDialog(null,"you got it correct");
+if (answer.equals("plam trees")) {JOptionPane.showMessageDialog(null,"you got it correct");
+score = score + 1;
 }
 else {
-	JOptionPane.showMessageDialog(null, "you got it wrong");
+	JOptionPane.showMessageDialog(null, "WRONG");
 }
-		// 5. Otherwise, say "wrong" and tell them the answer
-
+	JOptionPane.showMessageDialog(null, "YOUR CURRENT SCORE IS "+ score);
+	// 5. Otherwise, say "wrong" and tell them the answer
+String cow = JOptionPane.showInputDialog("what do you call a cow with no legs");
+ if (cow.equals("Ground beef")) {JOptionPane.showMessageDialog(null, "you got it right");
+ }
+ else {
+	 JOptionPane.showMessageDialog(null, "Wrong :(");
+ }
 		// 6. Add some more riddles
 
 		// 2. Make a pop up to show the score.
